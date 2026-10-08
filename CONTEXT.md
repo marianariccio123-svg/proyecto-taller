@@ -43,6 +43,10 @@ _Evitar_: devolución, descuento
 **Nota de débito**:
 Comprobante de venta que aumenta la deuda del Cliente sin ser una Factura.
 
+**Saldo inicial**:
+Comprobante interno, no emitido en ARCA, que representa lo que un Cliente debía al empezar a usar el sistema cuando no se conoce el detalle de sus Facturas. Se puede imputar como una Factura.
+_Evitar_: saldo anterior, arrastre
+
 **Remito**:
 Documento que acompaña la entrega de piezas al Cliente, en talonario con número preimpreso. No genera deuda; termina asociado a una Factura.
 
