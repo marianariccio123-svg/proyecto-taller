@@ -1,0 +1,3 @@
+# El Recibo es un PDF A4 completo, no una impresión sobre papel preimpreso
+
+En el primer audio la Administradora pidió imprimir los Recibos sobre papel preimpreso, como hace con los Remitos. Se decidió que el sistema genere el Recibo completo en PDF A4, con numeración correlativa propia y un número inicial configurable, porque se envía automáticamente por mail y por WhatsApp, y un preimpreso obliga a calibrar cada impresora y a seguir la numeración de la imprenta. Está pendiente que la Administradora lo confirme y que el Contador confirme que no hay exigencias formales que lo impidan (P37 de `preguntas-clienta.md`).

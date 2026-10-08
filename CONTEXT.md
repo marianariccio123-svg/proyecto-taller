@@ -49,8 +49,20 @@ Documento que acompaña la entrega de piezas al Cliente, en talonario con númer
 ## Cobros y cuenta corriente
 
 **Recibo**:
-Documento numerado correlativamente por el sistema que registra un cobro recibido de un Cliente, con sus medios de cobro y sus Imputaciones.
+Documento en PDF, numerado correlativamente por el sistema, que registra un cobro recibido de un Cliente, con sus Medios de cobro y sus Imputaciones.
 _Evitar_: cobro (como documento), pago (del lado del Cliente)
+
+**Medio de cobro**:
+Cada parte de un Recibo según cómo se cobró: transferencia, cheque físico, eCheq, efectivo o Retención. Un Recibo puede combinar varios.
+_Evitar_: forma de pago, valor
+
+**Retención**:
+Parte de una Factura que el Cliente no paga en dinero porque la retiene como impuesto y entrega un certificado. Cuenta como Medio de cobro.
+_Evitar_: descuento, deducción
+
+**Saldo a favor**:
+Parte de un Recibo o de una Nota de crédito todavía no imputada a ninguna Factura. Reduce el Saldo del Cliente y queda disponible para imputar después.
+_Evitar_: pago a cuenta, anticipo, crédito
 
 **Imputación**:
 Asignación de una parte de un Recibo (o de una Nota de crédito) a una Factura o Nota de débito concreta, total o parcial.
@@ -60,7 +72,11 @@ _Evitar_: aplicación, cancelación
 Historial de movimientos entre el Taller y un Cliente (o Proveedor), con el Saldo resultante. Siempre se deriva de los comprobantes y Recibos; nunca se carga a mano.
 
 **Saldo**:
-Lo que un Cliente le debe al Taller en un momento dado (o el Taller a un Proveedor), calculado a partir de los movimientos.
+Lo que un Cliente le debe al Taller en un momento dado (o el Taller a un Proveedor): lo que suma deuda (Facturas y Notas de débito) menos lo que la reduce (Recibos y Notas de crédito), esté imputado o no.
+
+**Pendiente**:
+Lo que falta pagar de una Factura o Nota de débito: su total menos sus Imputaciones.
+_Evitar_: saldo de la factura, resto
 
 **Condición de pago**:
 Si un Cliente paga de contado o en cuenta corriente, y en ese caso con qué Plazo.
